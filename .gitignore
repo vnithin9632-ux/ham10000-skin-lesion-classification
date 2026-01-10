@@ -1,0 +1,15 @@
+# Data
+data/
+data/raw
+# Models & outputs
+models/
+results/
+
+# Binaries
+*.pt
+*.pth
+*.h5
+*.zip
+
+# Jupyter
+**/.ipynb_checkpoints/
