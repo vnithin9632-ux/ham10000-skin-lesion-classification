@@ -1,7 +1,0 @@
-streamlit
-numpy
-pandas
-matplotlib
-torch
-torchvision
-opencv-python
