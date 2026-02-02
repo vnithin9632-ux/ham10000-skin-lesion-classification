@@ -53,8 +53,8 @@ with st.sidebar:
 
 from PIL import Image
 
-col1, col2 = st.columns(2)
 tab1, tab2 = st.tabs(["📤 Upload Your Own Image", "🖼️ Try Sample Images"])
+col1, col2 = st.columns(2)
 with tab1:
     uploaded_files = st.file_uploader(
         "Upload data", accept_multiple_files=False, type=["jpg", "jpeg", "png"]
