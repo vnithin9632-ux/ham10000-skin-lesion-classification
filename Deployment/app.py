@@ -224,4 +224,3 @@ with tab2:
                     df1 = Image.open(info['file'])
                     img = prediction(df1)
                     grad_cam(model, img.squeeze(dim=0)) 
-            st.markdown("---")
