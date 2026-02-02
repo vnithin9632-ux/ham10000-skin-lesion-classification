@@ -225,7 +225,12 @@ with tab2:
                     img = prediction(df1)
                     grad_cam(model, img.squeeze(dim=0)) 
                     
-                    st.info("This Is Taken From The TestSet And Is Not Trained By The Model!!")
+                    st.markdown("""
+                        <div style='text-align: center; color: #666; padding: 20px;'>
+                            <p><strong>Disclaimer:</strong> "This Is Taken From The TestSet And Is Not Trained By The Model!!"</p>
+                        </div>
+                    """, unsafe_allow_html=True)
+                    st.info()
                                       
                     
 st.markdown("""
