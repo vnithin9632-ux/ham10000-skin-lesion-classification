@@ -67,7 +67,7 @@ with col1:
 def loading_model():
     model = torchvision.models.resnet18()
     model.fc = nn.Linear(512, 7)
-    weights = torch.load('models/model.pth', map_location='cpu')
+    weights = torch.load('Deployment/models/model.pth', map_location='cpu')
     model.load_state_dict(weights)
     model.eval()
     return model
