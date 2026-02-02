@@ -191,7 +191,7 @@ with st.expander("ℹ️ How to interpret Grad-CAM"):
         
         
 with tab2:
-        samples_dir = "/Samples"
+        samples_dir = "Samples"
     
         sample_definitions = {
             "Melanoma Sample 1": {
