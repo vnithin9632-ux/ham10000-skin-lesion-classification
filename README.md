@@ -41,7 +41,7 @@ Training
 </p>
 
 <p align="center">
-  <img src="Demo/demo2.jpg" width="600"/>
+  <img src="Demo/demo2.jpg" width="300"/>
 </p>
 
 
