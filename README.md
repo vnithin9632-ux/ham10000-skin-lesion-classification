@@ -50,9 +50,9 @@ Training
 
 ## Installation
 
-git clone https://github.com/vnithin9632-ux/ham10000-skin-lesion-classification.git
-cd project
-pip install -r requirements.txt
+-git clone https://github.com/vnithin9632-ux/ham10000-skin-lesion-classification.git
+-cd project
+-pip install -r requirements.txt
 
 #### For Running The App Locally
 streamlit run app.py
