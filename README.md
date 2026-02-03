@@ -35,10 +35,13 @@ Training
         vasc       0.73      0.86      0.79        22
           df       0.58      0.65      0.61        17
 
+### APP Demo
 
 <p align="center">
   <img src="Demo/demo1.png" width="600"/>
 </p>
+
+### Grad_CAM Visualization
 
 <p align="center">
   <img src="Demo/demo2.jpg" width="300"/>
