@@ -35,17 +35,13 @@ Training
         vasc       0.73      0.86      0.79        22
           df       0.58      0.65      0.61        17
 
-    accuracy                           0.72      1503
-   macro avg       0.66      0.70      0.66      1503
-weighted avg       0.83      0.72      0.75      1503
-
 
 <p align="center">
   <img src="Demo/demo1.png" width="600"/>
 </p>
 
 <p align="center">
-  <img src="Demo/demo2.png" width="900"/>
+  <img src="Demo/demo2.jpg" width="600"/>
 </p>
 
 
@@ -55,10 +51,10 @@ git clone https://github.com/vnithin9632-ux/ham10000-skin-lesion-classification.
 cd project
 pip install -r requirements.txt
 
-## For Running The App Locally
+#### For Running The App Locally
 streamlit run app.py
 
-## Usage
+#### Usage
 Upload a skin lesion image to get instant classification with confidence scores and attention heatmap.
 
 
