@@ -2,11 +2,11 @@
 
 Live Demo: https://ham10000-skin-lesion-classification.streamlit.app/
 
-Dataset
-This project uses the HAM10000 dataset containing 10,015 dermatoscopic images across 7 skin lesion classes.
+#### Dataset
+- This project uses the HAM10000 dataset containing 10,015 dermatoscopic images across 7 skin lesion classes.
 Data was split into 70% training, 15% validation, and 15% testing.
 
-AI-powered skin lesion classification using deep learning, achieving 84% recall on melanoma detection.
+- AI-powered skin lesion classification using deep learning, achieving 84% recall on melanoma detection.
 
 ## Features
 - ResNet18-based classifier trained on HAM10000 dataset
@@ -15,15 +15,15 @@ AI-powered skin lesion classification using deep learning, achieving 84% recall 
 - 75% overall accuracy, 84% melanoma recall
 
 ## Tech Stack
-Python, PyTorch, Streamlit, OpenCV
+- Python, PyTorch, Torchvision, Streamlit, OpenCV, NumPy, Scikit-learn, Matplotlib, PIL
 
 ## Technical Details
 Training
-- "Model - "ResNet18(Trained On ImageNet)"
-- "Loss - CrossEntropyLoss"
-- "Optimizer - AdamW"
-- "Epochs - 25"
-- "Learning Rate - 0.003 to 0.001"
+- Model - ResNet18(Trained On ImageNet)
+- Loss - CrossEntropyLoss
+- Optimizer - AdamW
+- Epochs - 25
+- Learning Rate - 0.003 to 0.001
 
               precision    recall  f1-score   support
 
@@ -55,11 +55,10 @@ Training
 - pip install -r requirements.txt
 
 #### For Running The App Locally
-streamlit run app.py
+- streamlit run app.py
 
 #### Usage
-Upload a skin lesion image to get instant classification with confidence scores and attention heatmap.
-
+- Upload a skin lesion image to get instant classification with confidence scores and attention heatmap.
 
 
 #### Limitations
