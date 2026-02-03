@@ -69,7 +69,7 @@ with tab1:
 def loading_model():
     model = torchvision.models.resnet18()
     model.fc = nn.Linear(512, 7)
-    weights = torch.load('Deployment/models/model.pth', map_location='cpu')
+    weights = torch.load('models/model.pth', map_location='cpu')
     model.load_state_dict(weights)
     model.eval()
     return model
@@ -230,7 +230,6 @@ with tab2:
                             <p><strong>Disclaimer:</strong> "This Is Taken From The TestSet And Is Not Trained By The Model!!"</p>
                         </div>
                     """, unsafe_allow_html=True)
-                    st.info()
                                       
                     
 st.markdown("""
